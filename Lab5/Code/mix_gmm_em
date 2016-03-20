@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Dec 22 22:26:19 2014
+
+@author: jb
+"""
+
+
+def mix_gmm_em(mu_K,sigma_K,data):
+    Wik = zeros((K,shape(data)[0]))
+    
